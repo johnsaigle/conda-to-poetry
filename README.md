@@ -51,4 +51,7 @@ scipy = { version = ">=1.9.0", python = ">=3.8" }
 
 ## Known Issues
 
-- The script may not convert the `authors` section correctly.
+- May not convert the `authors` section correctly.
+- May not get the python version needed
+- If the conda author didn't specify versions, `poetry` may take a long
+    time to resolve several dependencies with version `*`
